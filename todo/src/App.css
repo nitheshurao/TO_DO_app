@@ -15,8 +15,8 @@ html {
   min-height: 100vh;
   background: #d1d4f7;
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
+  justify-content: center; 
+  align-items: center;
 }
 
 .child-div {

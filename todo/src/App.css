@@ -3,8 +3,8 @@
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box;
-  font-family: "Source Sans Pro", sans-serif; */
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 html {
@@ -12,7 +12,7 @@ html {
 }
 
 .main-div {
-  /* min-height: 100vh; */
+  min-height: 100vh;
   background: #d1d4f7;
   display: flex;
   /* justify-content: center; */

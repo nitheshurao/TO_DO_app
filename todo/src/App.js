@@ -1,7 +1,6 @@
 
 import './App.css';
 import Todo from './Complonets/Todo';
-import Pages from './Componts2/Pages';
 // import Todo1 from './Complonets/Todo1';
 
 function App() {
@@ -9,7 +8,7 @@ function App() {
     <div className="App">
       {/* <Todo1 /> */}
       <Todo />
-      <Pages />
+
     </div>
   );
 }

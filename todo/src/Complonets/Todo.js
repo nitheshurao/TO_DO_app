@@ -85,7 +85,7 @@ function Todo() {
                 {/* <figure> */}
                 {/* <figcaption>Add Item</figcaption> */}
                 {/* </figure> */}
-                <h3>TOdo</h3>
+                <h3>Todo Items</h3>
                 <div className="addItems">
                     <input type="text" placeholder="Add Items ..."
 

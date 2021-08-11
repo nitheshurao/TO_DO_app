@@ -93,6 +93,7 @@ function Todo() {
 
                         onChange={(e) => setInputData(e.target.value)}
 
+
                         onKeyPress={(event) => {
                             if (event.key === "Enter") {
                                 { AddItems(event) }
@@ -105,12 +106,9 @@ function Todo() {
 
                             <i className="fa fa-plus-square add-btn" title="Add item"
                                 onClick={AddItems}
-                            //onKeyPress={(event) => {
-                            //     if (event.key === "Enter") {
-                            //         { AddItems }
-                            //     }
-                            // }}}
-                            > </i> :
+
+                            > </i>
+                            :
                             <i className="far fa-edit add-btn" title="Edit Item"
                                 onClick={AddItems}
                             > </i>
@@ -127,7 +125,7 @@ function Todo() {
                                 <div className="todo-btn">
 
                                     <i className="far fa-edit add-btn" title="Edit" onClick={() => editItem(elemt.id)}></i>
-                                    <i className=" far fa-trash-alt " title="Deleteitem" onClick={() => DeleteItem(elemt.id)}> </i>
+                                    <i className="far fa-trash-alt" title="Deleteitem" onClick={() => DeleteItem(elemt.id)}> </i>
                                 </div>
 
                             </div>)

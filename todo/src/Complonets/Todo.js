@@ -94,7 +94,7 @@ function Todo() {
                         onChange={(e) => setInputData(e.target.value)}
 
 
-                        onKeyPress={(event) => {
+                        onKeyPess={(event) => {
                             if (event.key === "Enter") {
                                 { AddItems(event) }
                             }
